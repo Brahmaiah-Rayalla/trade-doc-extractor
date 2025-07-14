@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: trade-doc-extractor
+    env: docker
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
