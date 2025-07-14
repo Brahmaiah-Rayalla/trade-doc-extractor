@@ -3,3 +3,4 @@ uvicorn
 openai
 pytesseract
 pdf2image
+python-multipart
