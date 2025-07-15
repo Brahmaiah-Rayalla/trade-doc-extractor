@@ -4,3 +4,5 @@ openai
 pytesseract
 pdf2image
 python-multipart
+google-cloud-aiplatform
+vertexai
