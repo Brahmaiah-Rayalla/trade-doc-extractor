@@ -5,7 +5,7 @@ WORKDIR /app
 COPY . .
 
 # Install Poppler for pdf2image (provides pdfinfo, pdftoppm)
-RUN apt-get update && apt-get install -y poppler-utils
+RUN apt-get update && apt-get install -y poppler-utils tesseract-ocr
 
 RUN pip install --no-cache-dir -r requirements.txt
 
